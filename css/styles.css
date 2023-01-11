@@ -44,6 +44,17 @@ header {
     margin-bottom: 48px;
 }
 
+/* .skill-idle {
+    display: none;
+} */
+
+/* .transition {
+    opacity: 1;
+    top: 0;
+    transition: top 0.3s ease 0.2s, opacity 0.3s ease 0.2s;
+} */
+
+
 .nav-links li {
     display: inline-block;
     padding: 0 24px;
@@ -199,6 +210,10 @@ footer {
     max-width: 50%;
     height: 100%;
     object-fit: contain;
+}
+
+.skill-links {
+    cursor: pointer;
 }
 
 

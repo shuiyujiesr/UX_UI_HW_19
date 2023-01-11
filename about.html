@@ -46,7 +46,7 @@
                 <div class="contactMe">
                     <h1 class="sm-space">Hi there, it's nice to see you here!</h1>
                     <div class="buttons">
-                        <button class="right">Let’s Chat 🙌</button>
+                        <button class="right" id="contactMe">Let’s Chat 🙌</button>
                     </div>
                 </div>
 
@@ -56,14 +56,24 @@
 
     <section class="skillset">
         <h3 class="xs-space">My Skillset</h3>
-        <div class="skill md-space">
+        <div class="skill xs-space">
             <div class="logo"><img src="images\logo\Figma.png" alt="figma"></div>
             <div class="logo"><img src="images\logo\PS.png" alt="CC"></div>
             <div class="logo"><img src="images\logo\AI.png" alt="CC"></div>
             <div class="logo"><img src="images\logo\Slack.jpg" alt="slack"></div>
         </div>
-        <div class="skill-links align-center">
-            <a href="#" class="small-links">View my full skillset +</a>
+
+        <div class="skill-idle">
+            <div class="skill xs-space transition">
+                <div class="logo"><img src="images\logo\Figma.png" alt="figma"></div>
+                <div class="logo"><img src="images\logo\PS.png" alt="CC"></div>
+                <div class="logo"><img src="images\logo\AI.png" alt="CC"></div>
+                <div class="logo"><img src="images\logo\Slack.jpg" alt="slack"></div>
+            </div>
+        </div>
+
+        <div class="skill-links align-center" id="toggle">
+           View my full skillset +
         </div>
     </section>
 
@@ -96,7 +106,8 @@
     </footer>
 
 
-    <script src="" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/index.js" async defer></script>
 </body>
 
 </html>

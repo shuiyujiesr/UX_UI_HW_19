@@ -1,1 +1,7 @@
-console.log("hellohelool～your index.js file is load correctly");
+$ ("#contactMe").click(function(){
+    alert("slow");
+});
+
+$ ("#toggle").click(function(){
+    $("div").remove(".skill-idle");
+});
