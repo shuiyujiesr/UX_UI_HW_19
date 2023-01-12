@@ -2,6 +2,16 @@ $ ("#contactMe").click(function(){
     alert("slow");
 });
 
+
 $ ("#toggle").click(function(){
-    $("div").remove(".skill-idle");
+    if ($("#dropDown").hasClass("skill-idle")){
+        $("#dropDown").removeClass("skill-idle");
+    } else {
+        $("#dropDown").addClass("skill-idle");
+    }
+
+    $(".transition").animate({
+        opacity:"0.5",
+    });
+
 });
