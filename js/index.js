@@ -3,15 +3,21 @@ $ ("#contactMe").click(function(){
 });
 
 
+// $ ("#toggle").click(function(){
+//     if ($("#dropDown").hasClass("skill-idle")){
+//         $("#dropDown").removeClass("skill-idle");
+//     } else {
+//         $("#dropDown").addClass("skill-idle");
+//     }
+
+//     $(".transition").animate({
+//         opacity:"0.5",
+//     });
+
+// });
+
+let active = true;
+
 $ ("#toggle").click(function(){
-    if ($("#dropDown").hasClass("skill-idle")){
-        $("#dropDown").removeClass("skill-idle");
-    } else {
-        $("#dropDown").addClass("skill-idle");
-    }
-
-    $(".transition").animate({
-        opacity:"0.5",
-    });
-
+    $("#dropDown").slideToggle("slow");
 });
