@@ -1,6 +1,6 @@
-$ ("#contactMe").click(function(){
-    alert("slow");
-});
+// $ ("#contactMe").click(function(){
+//     alert("slow");
+// });
 
 
 // $ ("#toggle").click(function(){
